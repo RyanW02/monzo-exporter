@@ -1,0 +1,15 @@
+[package]
+name = "monzo-exporter"
+version = "0.1.0"
+authors = ["RyanW02"]
+edition = "2018"
+
+[dependencies]
+tokio = { version = "0.2", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+toml = "0.5"
+reqwest = { version = "0.10", features = ["json"] }
+thiserror = "1.0"
+warp = { version = "0.2", default-features = false }
+chrono = { version  = "0.4", features = ["serde"] }
