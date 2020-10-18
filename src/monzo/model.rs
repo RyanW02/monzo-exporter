@@ -7,7 +7,7 @@ pub struct GetBalance {
     pub total_balance: i64,
     pub balance_including_flexible_savings: i64,
     pub currency: Box<str>,
-    pub spend_today: u64,
+    pub spend_today: i64,
     pub local_currency: Box<str>,
     pub local_exchange_rate: u64,
     pub local_spend: Vec<LocalSpend>,
@@ -15,7 +15,7 @@ pub struct GetBalance {
 
 #[derive(Deserialize, Debug)]
 pub struct LocalSpend {
-    pub spend_today: u64,
+    pub spend_today: i64,
     pub currency: Box<str>,
 }
 

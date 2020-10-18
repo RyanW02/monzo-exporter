@@ -1,0 +1,6 @@
+account_id = "acc_xxxxxxxxxxxxxxxxxxxxxx"
+client_id = "oauth2client_xxxxxxxxxxxxxxxxxxxxxx"
+client_secret = "mnzconf.xxxxxx/xxxxxx/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+server_addr = "0.0.0.0:8080"
+redirect_uri = "http://127.0.0.1:8080"
+auth_key = ""
