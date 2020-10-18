@@ -81,7 +81,7 @@ printed every 15 seconds until you authorize the application in your Monzo app.
 Upon the Monzo app on your smartphone and you should see an alert saying "Allow access to your data".
 Click this, and click approve in the next dialog. You'll be asked to enter your PIN code.
 
-![Mobile approve](/docs/images/login_email.png?raw=true)
+![Mobile approve](/docs/images/mobile_approve.png?raw=true)
 
 You'll need to re-complete the authorization process every 90 days, as Monzo doesn't let us keep refreshing access tokens
 for longer than that.
