@@ -21,7 +21,7 @@ for example `http://127.0.0.1:8080/callback`
 
 ## Running the application
 ### Building
-Simply run `cargo build --release`, or download a pre-build binary from the [releases page](https://github.com/RyanW02/monzo-exporter/releases)
+Simply run `cargo build --release`, or download a pre-built binary from the [releases page](https://github.com/RyanW02/monzo-exporter/releases)
 
 If you do not have cargo installed, you can follow the [book](https://doc.rust-lang.org/cargo/getting-started/installation.html) on how to do so.
 
